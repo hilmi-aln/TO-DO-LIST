@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./19006_en_1.jpg);
+    color: rgb(253, 229, 197);
+    font-family: 'Cookie', "cursive";
+    font-size: 1.5rem;
+}
+.container{
+    background-color: rgba(150, 147, 147, 0.61);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+header input{
+    padding: 10px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 10px;
+    color: rgb(231, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: rgb(13, 173, 152);
+    font-size: 1.2rem;
+}
+h2{
+    text-align: center;
+}
+.container>button{
+    
+    margin: 10px 200px;
+}
+#task{
+    margin: 10px 5px;
+}
